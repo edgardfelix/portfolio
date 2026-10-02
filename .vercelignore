@@ -1,0 +1,6 @@
+# Nunca enviar segredos/dados locais nem artefatos no upload da CLI
+.env
+.env.*
+!.env.example
+node_modules
+dist

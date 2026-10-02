@@ -22,3 +22,6 @@ dist-ssr
 .DS_Store
 Thumbs.db
 *.sw?
+
+# Vercel (vínculo local do projeto)
+.vercel
