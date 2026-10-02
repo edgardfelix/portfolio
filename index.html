@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#05050A" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="description" content="%VITE_NOME% — %VITE_CARGO%. Projetos, stack e contato direto." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="%VITE_NOME% · %VITE_CARGO%" />
+    <meta property="og:description" content="Projetos, stack e contato direto." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>%VITE_NOME% · %VITE_CARGO%</title>
+    <!-- Evita o "flash" branco antes de o CSS-in-JS ser injetado -->
+    <style>
+      html { background: #05050a; color: #00ff66; }
+    </style>
+  </head>
+  <body>
+    <noscript>
+      <p>Este portfólio precisa de JavaScript habilitado para funcionar.</p>
+    </noscript>
+    <div id="raiz"></div>
+    <script type="module" src="/src/principal.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependências e build
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# Variáveis de ambiente: dados pessoais ficam fora do Git
+.env
+.env.*
+!.env.example
+
+# Editores e sistema
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.sw?
